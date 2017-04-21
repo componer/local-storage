@@ -1,0 +1,47 @@
+{
+	"name": "local-storage",
+	"version": "0.0.1",
+	"type": "component",
+	"dependencies": ["local-utils"],
+	"build": {
+		"from": "src/local-storage.js",
+		"to": "dist/local-storage.js",
+		"options": {
+			"minify": true,
+			"sourcemap": true,
+			"vendors": []
+		},
+		"settings": {}
+	},
+	"preview": {
+		"dir": ".preview_tmp",
+		"script": {
+			"from": "preview/local-storage.js",
+			"options": {
+				"minify": false,
+				"sourcemap": true,
+                "vendors": true
+			},
+			"settings": {}
+		},
+		"index": {
+			"from": "preview/index.html"
+		},
+		"watch": [
+			"preview/index.html",
+			"preview/local-storage.js",
+			"preview/a.js",
+			"src/**/*"
+		],
+		"server": "preview/server.js"
+	},
+	"test": {
+		"entry": {
+			"from": "test/specs/local-storage.js",
+			"settings": {}
+		},
+		"reporters": "test/reporters",
+		"debug": false,
+		"browsers": ["PhantomJS"]
+	}
+}

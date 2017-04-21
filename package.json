@@ -1,0 +1,24 @@
+{
+    "name": "local-storage",
+    "version": "0.0.1",
+    "description": "local storage",
+    "main": "src/local-storage.js",
+    "scripts": {},
+    "keywords": [
+        "componer"
+    ],
+    "author": "tangshuang",
+    "dependencies": {
+        "md5": "2.2.1"
+    },
+    "devDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tangshuang/local-storage.git"
+    },
+    "bugs": {
+        "url": "https://github.com/tangshuang/local-storage/issues"
+    },
+    "homepage": "https://github.com/tangshuang/local-storage#readme",
+    "license": "ISC"
+}

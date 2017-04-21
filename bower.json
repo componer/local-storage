@@ -1,0 +1,29 @@
+{
+    "name": "local-storage",
+    "version": "0.0.1",
+    "description": "local storage",
+    "main": [
+        "src/local-storage.js"
+    ],
+    "moduleType": [
+        "es6"
+    ],
+    "authors": [
+        "tangshuang"
+    ],
+    "keywords": [
+        "componer"
+    ],
+    "dependencies": {},
+    "devDependencies": {},
+    "homepage": "https://github.com/tangshuang/local-storage",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/tangshuang/local-storage.git"
+    },
+    "ignore": [
+        "preview/",
+        "test/",
+        "componer.json"
+    ]
+}
